@@ -1,0 +1,53 @@
+body{
+	background-color: lightblue;
+	background-image : url("https://dwg31ai31okv0.cloudfront.net/images/Article_Images/ImageForArticle_549_17288689857007544.jpg");
+}
+
+nav{
+	background-color: black;
+	width:100%;
+	padding: 15px 0;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:1000;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center the list items horizontally */
+}
+nav ul li {
+    margin-right: 30px; /* Add space between items */
+}
+
+/* Style the links inside the nav */
+nav ul li a {
+    text-decoration: none;
+    color: white; /* White text */
+    font-weight: bold;
+    font-size: 16px; /* Adjust the font size as needed */
+}
+
+.p1{
+	background-color: yellow;
+	font-family: cursive,san-serif;
+}
+.p2 {
+	background-color: orange;
+	font-family: Fantasy;
+}
+img{
+	mix-blend-mode:multiply;
+}
+footer{
+	background-color: cyan;
+	position:fixed;
+	width: 100%;
+	padding:10px 0;
+	bottom:0;
+	text-align:center;
+	
+}
